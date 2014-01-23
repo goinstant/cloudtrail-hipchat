@@ -11,4 +11,4 @@ var client = SNSClient(auth, function(err, message) {
 
 app.post('/receive', client);
 
-app.listen(9000);
+app.listen(process.env.PORT || 9000);
