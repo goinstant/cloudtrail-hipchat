@@ -1,0 +1,28 @@
+{
+  "name": "cloudtrail-hipchat",
+  "version": "0.0.1",
+  "description": "Cloud Trail SNS to Hipchat",
+  "main": "app.js",
+  "directories": {
+    "doc": "docs",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/goinstant/cloudtrail-hipchat.git"
+  },
+  "keywords": [
+    "cloudtrail",
+    "sns",
+    "hipchat"
+  ],
+  "author": "Leigh Martell",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "aws-snsclient": "~0.2.0"
+  }
+}
